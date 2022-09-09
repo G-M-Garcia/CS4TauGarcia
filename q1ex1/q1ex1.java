@@ -1,35 +1,39 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package q1ex1;
 
-/**
- *
- * @author TAU
- */
-public class Q1Ex1 {
+//@author TAU
 
-    /**
-     * @param args the command line arguments
-     */
+public class Q1Ex1 {
     public static void main(String[] args) {
-        // TODO code application logic here
+        String p1name = "bag";
+        String p2name = "sketchpad";
+        String p3name = "watch";
         
-        //Watch
-        //Color:
-        //Years in Possession:
-        //
+        String p1color = "grey";
+        String p2color = "blue";
+        String p3color = "blue";
         
-        //School Bag
-        //Color:
-        //Years in Possession:
-        //
+        int p1age = 2;
+        int p2age = 1;
+        int p3age = 6;
         
-        //Phone Case
-        //Color:
-        //Years in Possession:
+        System.out.println("Possession 1");
+        System.out.println("Name: " + p1name);
+        System.out.println("Color: " + p1color);
+        System.out.println("Years in possession: " + p1age + "\n");
+        
+        System.out.println("Possession 2");
+        System.out.println("Name: " + p2name);
+        System.out.println("Color: " + p2color);
+        System.out.println("Years in possession: " + p2age + "\n");
+        
+        System.out.println("Possession 1");
+        System.out.println("Name: " + p3name);
+        System.out.println("Color: " + p3color);
+        System.out.println("Years in possession: " + p3age + "\n");
+        
+        System.out.println("The bag has more years in possession than the sketchpad: " + (p1age > p2age))
+            System.out.println("The sketchpad and the watch are of the same : " + (p2color == p3color))
+            System.out.println("The sketchpad has more years in possession than the watch: " + (p2age > p3age))
         
     }
     
