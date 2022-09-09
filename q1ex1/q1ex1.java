@@ -31,9 +31,9 @@ public class Q1Ex1 {
         System.out.println("Color: " + p3color);
         System.out.println("Years in possession: " + p3age + "\n");
         
-        System.out.println("The bag has more years in possession than the sketchpad: " + (p1age > p2age))
-            System.out.println("The sketchpad and the watch are of the same : " + (p2color == p3color))
-            System.out.println("The sketchpad has more years in possession than the watch: " + (p2age > p3age))
+        System.out.println("The bag has more years in possession than the sketchpad: " + (p1age > p2age));
+        System.out.println("The sketchpad and the watch are of the same : " + (p2color == p3color));
+        System.out.println("The sketchpad has more years in possession than the watch: " + (p2age > p3age));
         
     }
     
