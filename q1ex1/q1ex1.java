@@ -26,7 +26,7 @@ public class Q1Ex1 {
         System.out.println("Color: " + p2color);
         System.out.println("Years in possession: " + p2age + "\n");
         
-        System.out.println("Possession 1");
+        System.out.println("Possession 3");
         System.out.println("Name: " + p3name);
         System.out.println("Color: " + p3color);
         System.out.println("Years in possession: " + p3age + "\n");
